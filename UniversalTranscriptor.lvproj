@@ -69,12 +69,15 @@
 			<Item Name="VICreate.vi" Type="VI" URL="../lv-scripting/VICreate.vi"/>
 			<Item Name="WireConnect.vi" Type="VI" URL="../lv-scripting/WireConnect.vi"/>
 		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="Example Test 1.vi" Type="VI" URL="../Test/Example Test 1.vi"/>
-			<Item Name="Get Top Entities.vi" Type="VI" URL="../Test/Get Top Entities.vi"/>
-			<Item Name="Read Example Test 1.vi" Type="VI" URL="../Test/Read Example Test 1.vi"/>
+		<Item Name="Test" Type="Folder" URL="../Test">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Get Variant Data Type.vi" Type="VI" URL="../Get Variant Data Type.vi"/>
+		<Item Name="types" Type="Folder" URL="../types">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="utils" Type="Folder" URL="../utils">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Test Dummy VI.vi" Type="VI" URL="../Test Dummy VI.vi"/>
 		<Item Name="Test Get VIs.vi" Type="VI" URL="../Test Get VIs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
