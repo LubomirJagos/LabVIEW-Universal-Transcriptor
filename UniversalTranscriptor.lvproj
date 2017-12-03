@@ -11,7 +11,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="lv-scripting" Type="Folder">
-			<Item Name=".gitignore" Type="Document" URL="../lv-scripting/.gitignore"/>
 			<Item Name="BundlerCreate.vi" Type="VI" URL="../lv-scripting/BundlerCreate.vi"/>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../lv-scripting/CleanUpDiagram.vi"/>
 			<Item Name="CompoundArithmeticCreate.vi" Type="VI" URL="../lv-scripting/CompoundArithmeticCreate.vi"/>
