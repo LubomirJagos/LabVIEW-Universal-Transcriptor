@@ -156,7 +156,6 @@
 			<Item Name="ReadVIInternal.vi" Type="VI" URL="../../lv-scripting/ReadVIInternal.vi"/>
 			<Item Name="ReadWhileLoop.vi" Type="VI" URL="../../lv-scripting/ReadWhileLoop.vi"/>
 			<Item Name="ReadWire.vi" Type="VI" URL="../../lv-scripting/ReadWire.vi"/>
-			<Item Name="SubVI Terminals Info.vi" Type="VI" URL="../utils/SubVI Terminals Info.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
