@@ -1,0 +1,3 @@
+[submodule "lv-scripting"]
+	path = lv-scripting
+	url = https://github.com/stupaq/lv-scripting
