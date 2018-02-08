@@ -33,7 +33,6 @@
 			<Item Name="LoopAddShiftRegister.vi" Type="VI" URL="../lv-scripting/LoopAddShiftRegister.vi"/>
 			<Item Name="LoopCreate.vi" Type="VI" URL="../lv-scripting/LoopCreate.vi"/>
 			<Item Name="lv-scripting.aliases" Type="Document" URL="../lv-scripting/lv-scripting.aliases"/>
-			<Item Name="lv-scripting.lvlps" Type="Document" URL="../lv-scripting/lv-scripting.lvlps"/>
 			<Item Name="lv-scripting.lvproj" Type="Document" URL="../lv-scripting/lv-scripting.lvproj"/>
 			<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../lv-scripting/NewCustomVIOwnerByUID.vi"/>
 			<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../lv-scripting/NewVIObjectOwnerByUID.vi"/>
@@ -130,32 +129,7 @@
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="HelperLabelText.vi" Type="VI" URL="../../lv-scripting/HelperLabelText.vi"/>
-			<Item Name="HelperOwnerUID.vi" Type="VI" URL="../../lv-scripting/HelperOwnerUID.vi"/>
-			<Item Name="HelperRefUID.vi" Type="VI" URL="../../lv-scripting/HelperRefUID.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="ReadArray.vi" Type="VI" URL="../../lv-scripting/ReadArray.vi"/>
-			<Item Name="ReadBundler.vi" Type="VI" URL="../../lv-scripting/ReadBundler.vi"/>
-			<Item Name="ReadCluster.vi" Type="VI" URL="../../lv-scripting/ReadCluster.vi"/>
-			<Item Name="ReadCompoundArithmetic.vi" Type="VI" URL="../../lv-scripting/ReadCompoundArithmetic.vi"/>
-			<Item Name="ReadDiagram.vi" Type="VI" URL="../../lv-scripting/ReadDiagram.vi"/>
-			<Item Name="ReadForLoop.vi" Type="VI" URL="../../lv-scripting/ReadForLoop.vi"/>
-			<Item Name="ReadFormula.vi" Type="VI" URL="../../lv-scripting/ReadFormula.vi"/>
-			<Item Name="ReadFormulaParameter.vi" Type="VI" URL="../../lv-scripting/ReadFormulaParameter.vi"/>
-			<Item Name="ReadInlineCNode.vi" Type="VI" URL="../../lv-scripting/ReadInlineCNode.vi"/>
-			<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../../lv-scripting/ReadLeftShiftRegister.vi"/>
-			<Item Name="ReadNumeric.vi" Type="VI" URL="../../lv-scripting/ReadNumeric.vi"/>
-			<Item Name="ReadPanel.vi" Type="VI" URL="../../lv-scripting/ReadPanel.vi"/>
-			<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../../lv-scripting/ReadRightShiftRegister.vi"/>
-			<Item Name="ReadRingConstant.vi" Type="VI" URL="../../lv-scripting/ReadRingConstant.vi"/>
-			<Item Name="ReadSubVI.vi" Type="VI" URL="../../lv-scripting/ReadSubVI.vi"/>
-			<Item Name="ReadTerminal.vi" Type="VI" URL="../../lv-scripting/ReadTerminal.vi"/>
-			<Item Name="ReadTunnel.vi" Type="VI" URL="../../lv-scripting/ReadTunnel.vi"/>
-			<Item Name="ReadUnbundler.vi" Type="VI" URL="../../lv-scripting/ReadUnbundler.vi"/>
-			<Item Name="ReadVI.vi" Type="VI" URL="../../lv-scripting/ReadVI.vi"/>
-			<Item Name="ReadVIInternal.vi" Type="VI" URL="../../lv-scripting/ReadVIInternal.vi"/>
-			<Item Name="ReadWhileLoop.vi" Type="VI" URL="../../lv-scripting/ReadWhileLoop.vi"/>
-			<Item Name="ReadWire.vi" Type="VI" URL="../../lv-scripting/ReadWire.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
