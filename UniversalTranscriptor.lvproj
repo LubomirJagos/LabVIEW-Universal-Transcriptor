@@ -70,14 +70,15 @@
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Transcriptors" Type="Folder" URL="../Transcriptors">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="types" Type="Folder" URL="../types">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="utils" Type="Folder" URL="../utils">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Test Dummy VI.vi" Type="VI" URL="../Test Dummy VI.vi"/>
-		<Item Name="Test Get VIs.vi" Type="VI" URL="../Test Get VIs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
