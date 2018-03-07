@@ -7,6 +7,9 @@ typedef struct myDefinedCluster{
 typedef struct myDefinedClusterSimilar{
   int itemXYZ = 50;
   String anotherString;
+  struct{
+    double age;  
+  }anotherStruct;
   double itemZ[5] = {1,2.2,35,4,7};
 };
 
@@ -19,6 +22,7 @@ void setup() {
   // put your setup code here, to run once:
   myVariable.item0 = 1042;  
   myVariableRef = new myDefinedCluster();
+  myVar2.anotherStruct.age = 42;
 }
 
 void loop() {
