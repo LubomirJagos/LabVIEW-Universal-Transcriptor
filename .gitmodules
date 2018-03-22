@@ -1,3 +1,6 @@
 [submodule "lv-scripting"]
 	path = lv-scripting
 	url = https://github.com/stupaq/lv-scripting
+[submodule "Arduino libraries/StandardCplusplus"]
+	path = Arduino libraries/StandardCplusplus
+	url = https://github.com/maniacbug/StandardCplusplus
