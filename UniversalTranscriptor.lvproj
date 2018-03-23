@@ -19,6 +19,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Arduino libraries" Type="Folder" URL="../Arduino libraries">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="C code" Type="Folder" URL="../C code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -94,6 +97,7 @@
 		<Item Name="utils 2" Type="Folder" URL="../utils 2">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="application.ico" Type="Document" URL="../builds/resources/application.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -172,8 +176,53 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Wire Is Different as WhileLoop EndRef Wire.vi" Type="VI" URL="../utils 2/Wire Is Different as WhileLoop EndRef Wire.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{8B248E5A-BBFB-4057-8259-0881441089DB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0CE40171-7EFF-4420-9DD0-7B3D59A558F1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{76F9559B-3366-4B31-AB86-10C5933A4080}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Application for transcripting existing VI into user defined text programming language.
+For now experiments are focused on Arduino platform, so output is C/C++ code.
+
+THIS ATTEMPT IS USELESS, BECAUSE VI Scripting IS NOT ACCESSIBLE THROUGH RUNTIME!</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F8DB5A48-7FE0-45AD-BAC8-8E6158C0B52B}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LabVIEW_Universal_Transcriptor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/application.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{631683F1-E2F2-48EB-BEA4-89AADE332BB6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test/Test Transcriptor LabVIEW to C code 2.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME</Property>
+				<Property Name="TgtF_internalName" Type="Str">Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Useless Specificatin LabVIEW_Universal_Transcriptor Feature Not supported through RUNTIME</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D040994F-A0CA-4637-A48C-B9FCD7C588B1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_Universal_Transcriptor.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
