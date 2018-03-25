@@ -4,11 +4,7 @@
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 #include <empty.h>
-SoftwareSerial* ArduinoLabVIEWcreatedUART_3;
-
 #include <empty.h>
-
-
 #include <ArduinoBasicFunctions.h>
 using namespace std;
 
@@ -30,11 +26,12 @@ template<typename FEEDBACKNODE_TYPE> static FEEDBACKNODE_TYPE feedbackNode_924(F
     if (internalHead == -1) internalHead = FEEDBACK_REGISTER_SIZE_924 - 1;
     return internalBuffer[internalHead];
 }
+SoftwareSerial* ArduinoLabVIEWcreatedUART_3;
 
 void Blink_5(){
     unsigned int wireUID_1641_ = 9600;
-    unsigned char wireUID_1634_ = 1;
-    unsigned char wireUID_1629_ = 0;
+    unsigned char wireUID_1634_ = 0;
+    unsigned char wireUID_1629_ = 1;
     bool wireUID_1576_ = false;
     long wireUID_1507_ = 3;
     long wireUID_1396_ = 3;
