@@ -210,7 +210,7 @@ THIS ATTEMPT IS USELESS, BECAUSE VI Scripting IS NOT ACCESSIBLE THROUGH RUNTIME!
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/application.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{631683F1-E2F2-48EB-BEA4-89AADE332BB6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{257E89A4-AD8F-41CA-BDB4-FB882A9F90D5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test/Test Transcriptor LabVIEW to C code 2.vi</Property>
