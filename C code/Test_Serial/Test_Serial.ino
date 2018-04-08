@@ -57,6 +57,7 @@ void Array_2(){
             shiftRegister_2756.push(wireUID_2750_);
             shiftRegisterInitBool_2756 = false;
         } //shift register init
+        unsigned char wireUID_683_;
         vector<vector<String>> wireUID_877_ = wireUID_836_;
         String wireUID_1095_;
         long wireUID_2830_column = shiftRegister_497.shift();
@@ -74,34 +75,33 @@ void Array_2(){
         digitalWrite(wireUID_2569_,wireUID_1178_?HIGH:LOW);
         wireUID_1095_ = wireUID_877_[wireUID_3480_row][wireUID_2830_column];
         /***** BEGIN CaseStructure ********/
-        long wireUID_3719_;
-        long wireUID_3551_ = wireUID_3480_row;
-        bool wireUID_3591_;
-        long wireUID_3547_ = 3;
-        long wireUID_3440_ = 0;
-        long wireUID_3746_ = wireUID_3480_row;
-        long wireUID_3402_;
-        long wireUID_3369_ = wireUID_2830_column; //wires declarations
-                long wireUID_145_ = 0;
-                long wireUID_3696_;
-                long wireUID_3667_ = wireUID_3551_; //wires declarations
         switch(wireUID_2934_){
             case false:
-                
+            {
+                long wireUID_3719_;
+                long wireUID_3551_ = wireUID_3480_row;
+                bool wireUID_3591_;
+                long wireUID_3547_ = 3;
+                long wireUID_3440_ = 0;
                 wireUID_3591_ = wireUID_3551_ < wireUID_3547_;
                 /***** BEGIN CaseStructure ********/
                 switch(wireUID_3591_){
                     case false:
-                        
+                    {
+                        long wireUID_145_ = 0;
                         
                          /* C code */
                         wireUID_3719_ = wireUID_145_; /* output assgn. */
+                    }
                     break;
                     case true:
-                        
+                    {
+                        long wireUID_3696_;
+                        long wireUID_3667_ = wireUID_3551_;
                         wireUID_3696_ = wireUID_3667_ + 1;
                          /* C code */
                         wireUID_3719_ = wireUID_3696_; /* output assgn. */
+                    }
                     break;
                 }
                 /****** END CaseStructure ********/
@@ -109,17 +109,22 @@ void Array_2(){
                  /* C code */
                 wireUID_3445_ = wireUID_3440_;
                 wireUID_3724_ = wireUID_3719_; /* output assgn. */
+            }
             break;
             case true:
-                
+            {
+                long wireUID_3746_ = wireUID_3480_row;
+                long wireUID_3402_;
+                long wireUID_3369_ = wireUID_2830_column;
                 wireUID_3402_ = wireUID_3369_ + 1;
                  /* C code */
                 wireUID_3445_ = wireUID_3402_;
                 wireUID_3724_ = wireUID_3746_; /* output assgn. */
+            }
             break;
         }
         /****** END CaseStructure ********/
-        ArduinoLabVIEWcreatedUART_3->print(wireUID_1095_);
+        wireUID_683_ = ArduinoLabVIEWcreatedUART_3->print(wireUID_1095_);
         
         delay(wireUID_1206_); /* by Translator.vi, VI Path: C:\Users\lubo\Documents\LabView\LabVIEW-Universal-Transcriptor\Test\Examples For Parsing\delay.vi */
         
