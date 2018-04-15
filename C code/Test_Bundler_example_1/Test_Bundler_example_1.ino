@@ -5,6 +5,13 @@ typedef struct myDefStruct{
   int D = 8;
 };
 
+typedef struct myDefStruct2{
+  int _1;
+  float _2;
+  String _3;
+  int _4;
+};
+
 myDefStruct structA;
 void* ptrA;
 
