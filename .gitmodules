@@ -4,7 +4,3 @@
 [submodule "Arduino libraries/StandardCplusplus"]
 	path = Arduino libraries/StandardCplusplus
 	url = https://github.com/maniacbug/StandardCplusplus
-[submodule "Arduino libraries/CircularBuffer"]
-	path = Arduino libraries/CircularBuffer
-	url = https://github.com/rlogiacco/CircularBuffer]
-

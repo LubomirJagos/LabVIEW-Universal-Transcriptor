@@ -1,49 +1,50 @@
-typedef struct myDefStruct{
-  int A = 3;
-  float B = 4.2;
-  String C = "Hello world!";  
-  int D = 8;
-};
+#include <StandardCplusplus.h>
+#include <vector>
+#include <ArduinoBasicFunctions.h>
+using namespace std;
 
-myDefStruct structA;
-void* ptrA;
-
-void setup(){
-  Serial.begin(9600);
+void Blink_4_experimental(){
+    bool wireUID_424_ = true;
+    bool wireUID_740_ = true;
+    long wireUID_705_ = 3;
+    long wireUID_652_ = 2;
+    pinMode(wireUID_652_,wireUID_740_?OUTPUT:INPUT);
+    pinMode(wireUID_705_,wireUID_740_?OUTPUT:INPUT);
+    /***** BEGIN WhileLoop ********/
+    vector<bool> feedbackNode_615;
+    bool feedbackNodeInitBool_615 = true;
+    
+    bool wireUID_430_ = false; //LoopEndRef.
+    int iteratorUID_289 = 0; //loop iterator
+    do{
+     //shift register init
+        bool wireUID_317_;
+        bool wireUID_642_;
+        long wireUID_1157_ = 2;
+        long wireUID_921_ = 3;
+        long wireUID_426_ = 1000;
+        if (feedbackNodeInitBool_615){
+            feedbackNode_615.push_back(wireUID_424_);
+            feedbackNodeInitBool_615 = false;
+        }
+        wireUID_642_ = feedbackNode_615.front(); feedbackNode_615.erase(feedbackNode_615.begin());
+        delay(wireUID_426_);
+        wireUID_317_ = !wireUID_642_;
+        digitalWrite(wireUID_921_,wireUID_642_?HIGH:LOW);
+        /* Don't know how to translate class "Generic ->GObject ->Node": "" */
+        digitalWrite(wireUID_1157_,wireUID_317_?HIGH:LOW);
+        feedbackNode_615.push_back(wireUID_317_);
+         //C code
+        
+         //output assgn.
+        iteratorUID_289++; //iterator increment
+    }while(!wireUID_430_); //negation because in LabVIEW it is when stop (oposite)
+    /****** END WhileLoop */
+    
 }
 
+void setup(){}
 void loop(){
-/* t+his code run normally as expected, print values of struct items
-  Serial.print(structA.A);
-  Serial.print(" - ");
-  Serial.print(structA.B);
-  Serial.print(" - ");
-  Serial.print(structA.C);
-  Serial.print(" - ");
-  Serial.print(structA.D);
-  Serial.println();
-  delay(1000);
-*/
-/*
-  ptrA = &structA;
-  Serial.print(*((int*) ptrA));
-  Serial.print(" - ");
-  Serial.print(*((float*) (ptrA + sizeof(int))));
-  Serial.print(" - ");
-  Serial.print(*((String*) (ptrA + sizeof(int) + sizeof(float))));
-  Serial.print(" - ");
-  Serial.print(*((int*) (ptrA + sizeof(int) + sizeof(float) + sizeof(String))));
-  Serial.println();
-  delay(1000);
-*/
-  Serial.print(*((int*) ((void*) &structA)));
-  Serial.print(" - ");
-  Serial.print(*((float*) (((void*) &structA) + sizeof(int))));
-  Serial.print(" - ");
-  Serial.print(*((String*) (((void*) &structA) + sizeof(int) + sizeof(float))));
-  Serial.print(" - ");
-  Serial.print(*((int*) (((void*) &structA) + sizeof(int) + sizeof(float) + sizeof(String))));
-  Serial.println();
-  delay(1000);
+    Blink_4_experimental();
 }
 
