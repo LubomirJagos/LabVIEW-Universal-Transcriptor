@@ -1,50 +1,189 @@
 #include <StandardCplusplus.h>
 #include <vector>
 #include <ArduinoBasicFunctions.h>
-using namespace std;
+#include <Arduino.h>
+#include <SoftwareSerial.h>
+#include <empty.h>
+SoftwareSerial* ArduinoLabVIEWcreatedUART_3;
 
-void Blink_4_experimental(){
-    bool wireUID_424_ = true;
-    bool wireUID_740_ = true;
-    long wireUID_705_ = 3;
-    long wireUID_652_ = 2;
-    pinMode(wireUID_652_,wireUID_740_?OUTPUT:INPUT);
-    pinMode(wireUID_705_,wireUID_740_?OUTPUT:INPUT);
-    /***** BEGIN WhileLoop ********/
-    vector<bool> feedbackNode_615;
-    bool feedbackNodeInitBool_615 = true;
+#include <empty.h>
+
+
+using namespace std;
+typedef struct LVcluster_I32_String{
+    long senseOfLife;
+    String partOfBookText;
+};
+
+
+void Example_Bundler_Unbundler_1(){
+    LVcluster_I32_String wireUID_3016_;
+    LVcluster_I32_String wireUID_2999_;
+    LVcluster_I32_String wireUID_2978_;
+    LVcluster_I32_String wireUID_1231_ = {0,""};
+    String wireUID_1820_ = "Aldous Huxley, Brave New World";
+    long wireUID_1814_ = 2;
+    long wireUID_1708_ = 1;
+    String wireUID_1700_ = "1984 George Orwell";
+    String wireUID_1326_ = "Hitchhiker's guide through the galaxy.";
+    long wireUID_1315_ = 0;
+    unsigned int wireUID_763_ = 9600;
+    unsigned char wireUID_717_ = 0;
+    unsigned char wireUID_692_ = 1;
+    ArduinoLabVIEWcreatedUART_3 = new SoftwareSerial( wireUID_717_, wireUID_692_);
     
-    bool wireUID_430_ = false; //LoopEndRef.
-    int iteratorUID_289 = 0; //loop iterator
+    /***** Bundler ****/
+    wireUID_2978_.senseOfLife = wireUID_1315_;
+    wireUID_2978_.partOfBookText = wireUID_1326_;
+    /***** End Bundler ****/
+    /***** Bundler ****/
+    wireUID_2999_.senseOfLife = wireUID_1708_;
+    wireUID_2999_.partOfBookText = wireUID_1700_;
+    /***** End Bundler ****/
+    /***** Bundler ****/
+    wireUID_3016_.senseOfLife = wireUID_1814_;
+    wireUID_3016_.partOfBookText = wireUID_1820_;
+    /***** End Bundler ****/
+    ArduinoLabVIEWcreatedUART_3->begin(wireUID_763_);
+    
+    /***** BEGIN WhileLoop ********/
+    vector<long> feedbackNode_2002;
+    bool feedbackNodeInitBool_2002 = true;
+    
+    bool wireUID_2127_ = false; //LoopEndRef.
+    int iteratorUID_494 = 0; //loop iterator
     do{
      //shift register init
-        bool wireUID_317_;
-        bool wireUID_642_;
-        long wireUID_1157_ = 2;
-        long wireUID_921_ = 3;
-        long wireUID_426_ = 1000;
-        if (feedbackNodeInitBool_615){
-            feedbackNode_615.push_back(wireUID_424_);
-            feedbackNodeInitBool_615 = false;
+        unsigned char wireUID_1007_;
+        String wireUID_972_ = "";
+        long wireUID_2673_ = wireUID_2673_;
+        LVcluster_I32_String wireUID_740_ = wireUID_3016_;
+        LVcluster_I32_String wireUID_725_ = wireUID_2999_;
+        LVcluster_I32_String wireUID_714_ = wireUID_2978_;
+        long wireUID_2588_;
+        long wireUID_2660_ = -1;
+        bool wireUID_2599_;
+        long wireUID_2577_ = 2;
+        long wireUID_565_ = 1000;
+        String wireUID_1870_ = " - ";
+        if (feedbackNodeInitBool_2002){
+            feedbackNode_2002.push_back(wireUID_2660_);
+            feedbackNodeInitBool_2002 = false;
         }
-        wireUID_642_ = feedbackNode_615.front(); feedbackNode_615.erase(feedbackNode_615.begin());
-        delay(wireUID_426_);
-        wireUID_317_ = !wireUID_642_;
-        digitalWrite(wireUID_921_,wireUID_642_?HIGH:LOW);
+        wireUID_2588_ = feedbackNode_2002.front(); feedbackNode_2002.erase(feedbackNode_2002.begin());
+        wireUID_2599_ = wireUID_2577_ == wireUID_2588_;
+        /***** BEGIN CaseStructure ********/
+        switch(wireUID_2599_){
+            case true:
+            {
+                long wireUID_2697_ = 0;
+                 /* C code */
+                wireUID_2673_ = wireUID_2697_; /* output assgn. */
+            }
+            break;
+            case false:
+            {
+                long wireUID_2755_;
+                long wireUID_2702_ = wireUID_2588_;
+                wireUID_2755_ = wireUID_2702_ + 1;
+                 /* C code */
+                wireUID_2673_ = wireUID_2755_; /* output assgn. */
+            }
+            break;
+        }
+        /****** END CaseStructure ********/
         /* Don't know how to translate class "Generic ->GObject ->Node": "" */
-        digitalWrite(wireUID_1157_,wireUID_317_?HIGH:LOW);
-        feedbackNode_615.push_back(wireUID_317_);
+        /***** BEGIN CaseStructure ********/
+        switch(wireUID_2673_){
+            case 0:
+            {
+                String wireUID_1757_ = "zero";
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_1757_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+            case 2:
+            {
+                String wireUID_1141_ = "two";
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_1141_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+            case 1:
+            {
+                String wireUID_1567_ = "one";
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_1567_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+        }
+        /****** END CaseStructure ********/
+        ArduinoLabVIEWcreatedUART_3->print(wireUID_1870_);
+        
+        /***** BEGIN CaseStructure ********/
+        switch(wireUID_2673_){
+            case 2:
+            {
+                LVcluster_I32_String wireUID_439_ = wireUID_740_;
+                String wireUID_1230_;
+                /***** BEGIN  Unbundler *****/
+                wireUID_1230_ = (*(String*) (((void*) &wireUID_439_) + sizeof(long)));
+                /***** END Unbundler *****/
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_1230_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+            case 1:
+            {
+                String wireUID_1057_;
+                LVcluster_I32_String wireUID_973_ = wireUID_725_;
+                /***** BEGIN  Unbundler *****/
+                wireUID_1057_ = (*(String*) (((void*) &wireUID_973_) + sizeof(long)));
+                /***** END Unbundler *****/
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_1057_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+            case 0:
+            {
+                String wireUID_848_;
+                LVcluster_I32_String wireUID_819_ = wireUID_714_;
+                /***** BEGIN  Unbundler *****/
+                wireUID_848_ = (*(String*) (((void*) &wireUID_819_) + sizeof(long)));
+                /***** END Unbundler *****/
+                ArduinoLabVIEWcreatedUART_3->print(wireUID_848_);
+                
+                 /* C code */
+             /* output assgn. */
+            }
+            break;
+        }
+        /****** END CaseStructure ********/
+        wireUID_1007_ = ArduinoLabVIEWcreatedUART_3->print(wireUID_972_);
+        
+        delay(wireUID_565_);
+        feedbackNode_2002.push_back(wireUID_2673_);
          //C code
         
          //output assgn.
-        iteratorUID_289++; //iterator increment
-    }while(!wireUID_430_); //negation because in LabVIEW it is when stop (oposite)
+        iteratorUID_494++; //iterator increment
+    }while(!wireUID_2127_); //negation because in LabVIEW it is when stop (oposite)
     /****** END WhileLoop */
     
 }
 
 void setup(){}
 void loop(){
-    Blink_4_experimental();
+    Example_Bundler_Unbundler_1();
 }
 
