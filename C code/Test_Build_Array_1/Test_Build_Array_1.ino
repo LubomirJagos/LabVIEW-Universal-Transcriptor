@@ -4,6 +4,10 @@
 using namespace std;
 
 void Blink_4_experimental(){
+    double numA[] = {0,0,0,0};
+    double* numB = numA;
+    //numA[5][10];
+    
     bool wireUID_424_ = true;
     bool wireUID_740_ = true;
     long wireUID_705_ = 3;
