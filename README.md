@@ -4,3 +4,5 @@ When I saw LabVIEW for first time I was hooked. I already knew few programming l
 So I started and this repositary is my storage for this. I little dig inside LabVIEW Scripting and LabVIEW again surprised me, as simple as it looks, that simple it is :D Diagrams are really diagrams inside LabVIEW and they are easily accessible from it, so everybody can traverse any diagram and transform it to anything what you want.
 
 My target for now is C code for Arduino :)
+
+![LabVIEWforKids early fun](https://github.com/LubomirJagos/LabVIEW-Universal-Transcriptor/tree/master/Documentation/img/LabVIEWforKids%20Jarda.png "one of early LabVIEW for Kids fun")
