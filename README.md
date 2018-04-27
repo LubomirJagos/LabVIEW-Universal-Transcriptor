@@ -5,4 +5,6 @@ So I started and this repositary is my storage for this. I little dig inside Lab
 
 My target for now is C code for Arduino :)
 
-![LabVIEWforKids early fun](https://github.com/LubomirJagos/LabVIEW-Universal-Transcriptor/tree/master/Documentation/img/LabVIEWforKids%20Jarda.png "one of early LabVIEW for Kids fun")
+![LabVIEWforKids early fun](/Documentation/img/LabVIEWforKids%20Jarda.png "one of early LabVIEW for Kids fun")
+
+
