@@ -28,6 +28,9 @@
 		<Item Name="C code" Type="Folder" URL="../C code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Documentation" Type="Folder" URL="../Documentation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Examples - Transcriptor Usage" Type="Folder" URL="../Examples - Transcriptor Usage">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
