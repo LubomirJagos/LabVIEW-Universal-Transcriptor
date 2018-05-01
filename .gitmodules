@@ -4,3 +4,6 @@
 [submodule "Arduino libraries/StandardCplusplus"]
 	path = Arduino libraries/StandardCplusplus
 	url = https://github.com/maniacbug/StandardCplusplus
+[submodule "Arduino libraries/ArduinoSTL"]
+	path = Arduino libraries/ArduinoSTL
+	url = https://github.com/mike-matera/ArduinoSTL
