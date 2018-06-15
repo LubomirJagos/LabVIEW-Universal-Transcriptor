@@ -34,62 +34,8 @@
 		<Item Name="Examples - Transcriptor Usage" Type="Folder" URL="../Examples - Transcriptor Usage">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="lv-scripting" Type="Folder">
-			<Item Name="BundlerCreate.vi" Type="VI" URL="../lv-scripting/BundlerCreate.vi"/>
-			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../lv-scripting/CleanUpDiagram.vi"/>
-			<Item Name="CompoundArithmeticCreate.vi" Type="VI" URL="../lv-scripting/CompoundArithmeticCreate.vi"/>
-			<Item Name="ControlArrayCreate.vi" Type="VI" URL="../lv-scripting/ControlArrayCreate.vi"/>
-			<Item Name="ControlClusterCreate.vi" Type="VI" URL="../lv-scripting/ControlClusterCreate.vi"/>
-			<Item Name="ControlCreate.vi" Type="VI" URL="../lv-scripting/ControlCreate.vi"/>
-			<Item Name="ControlStyleReference.vi" Type="VI" URL="../lv-scripting/ControlStyleReference.vi"/>
-			<Item Name="FormulaAddIO.vi" Type="VI" URL="../lv-scripting/FormulaAddIO.vi"/>
-			<Item Name="FormulaCleanup.vi" Type="VI" URL="../lv-scripting/FormulaCleanup.vi"/>
-			<Item Name="FormulaCreate.vi" Type="VI" URL="../lv-scripting/FormulaCreate.vi"/>
-			<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../lv-scripting/GeneratePropertyGetters.vi"/>
-			<Item Name="GeneratePropertyGettersForType.vi" Type="VI" URL="../lv-scripting/GeneratePropertyGettersForType.vi"/>
-			<Item Name="GetReferenceByUID.vi" Type="VI" URL="../lv-scripting/GetReferenceByUID.vi"/>
-			<Item Name="GetReferenceByUID_traverser.vi" Type="VI" URL="../lv-scripting/GetReferenceByUID_traverser.vi"/>
-			<Item Name="GObjectDelete.vi" Type="VI" URL="../lv-scripting/GObjectDelete.vi"/>
-			<Item Name="HelperLabelText.vi" Type="VI" URL="../lv-scripting/HelperLabelText.vi"/>
-			<Item Name="HelperOwnerUID.vi" Type="VI" URL="../lv-scripting/HelperOwnerUID.vi"/>
-			<Item Name="HelperRefUID.vi" Type="VI" URL="../lv-scripting/HelperRefUID.vi"/>
-			<Item Name="HighlightByUID.vi" Type="VI" URL="../lv-scripting/HighlightByUID.vi"/>
-			<Item Name="LoopAddShiftRegister.vi" Type="VI" URL="../lv-scripting/LoopAddShiftRegister.vi"/>
-			<Item Name="LoopCreate.vi" Type="VI" URL="../lv-scripting/LoopCreate.vi"/>
-			<Item Name="lv-scripting.aliases" Type="Document" URL="../lv-scripting/lv-scripting.aliases"/>
-			<Item Name="lv-scripting.lvproj" Type="Document" URL="../lv-scripting/lv-scripting.lvproj"/>
-			<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../lv-scripting/NewCustomVIOwnerByUID.vi"/>
-			<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../lv-scripting/NewVIObjectOwnerByUID.vi"/>
-			<Item Name="ParameterInterceptorInfo.vi" Type="VI" URL="../lv-scripting/ParameterInterceptorInfo.vi"/>
-			<Item Name="ReadArray.vi" Type="VI" URL="../lv-scripting/ReadArray.vi"/>
-			<Item Name="ReadBundler.vi" Type="VI" URL="../lv-scripting/ReadBundler.vi"/>
-			<Item Name="ReadCluster.vi" Type="VI" URL="../lv-scripting/ReadCluster.vi"/>
-			<Item Name="ReadCompoundArithmetic.vi" Type="VI" URL="../lv-scripting/ReadCompoundArithmetic.vi"/>
-			<Item Name="ReadControl.vi" Type="VI" URL="../lv-scripting/ReadControl.vi"/>
-			<Item Name="ReadDiagram.vi" Type="VI" URL="../lv-scripting/ReadDiagram.vi"/>
-			<Item Name="ReadForLoop.vi" Type="VI" URL="../lv-scripting/ReadForLoop.vi"/>
-			<Item Name="ReadFormula.vi" Type="VI" URL="../lv-scripting/ReadFormula.vi"/>
-			<Item Name="ReadFormulaParameter.vi" Type="VI" URL="../lv-scripting/ReadFormulaParameter.vi"/>
-			<Item Name="ReadInlineCNode.vi" Type="VI" URL="../lv-scripting/ReadInlineCNode.vi"/>
-			<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../lv-scripting/ReadLeftShiftRegister.vi"/>
-			<Item Name="ReadNumeric.vi" Type="VI" URL="../lv-scripting/ReadNumeric.vi"/>
-			<Item Name="ReadPanel.vi" Type="VI" URL="../lv-scripting/ReadPanel.vi"/>
-			<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../lv-scripting/ReadRightShiftRegister.vi"/>
-			<Item Name="ReadRingConstant.vi" Type="VI" URL="../lv-scripting/ReadRingConstant.vi"/>
-			<Item Name="ReadSubVI.vi" Type="VI" URL="../lv-scripting/ReadSubVI.vi"/>
-			<Item Name="ReadTerminal.vi" Type="VI" URL="../lv-scripting/ReadTerminal.vi"/>
-			<Item Name="ReadTunnel.vi" Type="VI" URL="../lv-scripting/ReadTunnel.vi"/>
-			<Item Name="ReadUnbundler.vi" Type="VI" URL="../lv-scripting/ReadUnbundler.vi"/>
-			<Item Name="ReadVI.vi" Type="VI" URL="../lv-scripting/ReadVI.vi"/>
-			<Item Name="ReadVIInternal.vi" Type="VI" URL="../lv-scripting/ReadVIInternal.vi"/>
-			<Item Name="ReadWhileLoop.vi" Type="VI" URL="../lv-scripting/ReadWhileLoop.vi"/>
-			<Item Name="ReadWire.vi" Type="VI" URL="../lv-scripting/ReadWire.vi"/>
-			<Item Name="RingConstantCreate.vi" Type="VI" URL="../lv-scripting/RingConstantCreate.vi"/>
-			<Item Name="StdCallTemplate.vit" Type="VI" URL="../lv-scripting/StdCallTemplate.vit"/>
-			<Item Name="SubVICreate.vi" Type="VI" URL="../lv-scripting/SubVICreate.vi"/>
-			<Item Name="VICloseSave.vi" Type="VI" URL="../lv-scripting/VICloseSave.vi"/>
-			<Item Name="VICreate.vi" Type="VI" URL="../lv-scripting/VICreate.vi"/>
-			<Item Name="WireConnect.vi" Type="VI" URL="../lv-scripting/WireConnect.vi"/>
+		<Item Name="lv-scripting" Type="Folder" URL="../lv-scripting">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>

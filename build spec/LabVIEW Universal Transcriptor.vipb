@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-03-25 18:11:34" Modified_Date="2018-06-14 02:39:56" Creator="lubo" Comments="" ID="fe2a0e3c7e11a1efb598d1b64d3c2e50">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-03-25 18:11:34" Modified_Date="2018-06-15 09:53:30" Creator="lubo" Comments="" ID="1598bca5d328266f77a1f727a94885ad">
   <Library_General_Settings>
     <Package_File_Name>LubomirJagos_lib_LabVIEW_Universal_Transcriptor</Package_File_Name>
-    <Library_Version>0.1.0.18</Library_Version>
+    <Library_Version>0.1.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -432,7 +432,7 @@
         <Path>..\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E248B7BD375A29829E930500CD147578</GUID>
+      <GUID>2D0B9990DFD945C67370160C9F3178C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -523,7 +523,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEBBF3A7C9D05E0D92448015233F0E77</GUID>
+      <GUID>89079ADFC1084F5F71B4C45885DE8EA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -628,7 +628,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>552E95DDB64F427F800DC9A368C07A0C</GUID>
+      <GUID>D97EEE2ADF5D302D28D27E14B1A873F9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -803,7 +803,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>96EE99813255E258BD747A30D31D1E69</GUID>
+      <GUID>9FA1D4E2F042C1EB3D12984C93B734C0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -908,7 +908,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>19AAB96EACE7FF129359EB3E912553F4</GUID>
+      <GUID>0E61882BDF0B15FDF79CF94EC08C5F36</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1013,7 +1013,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>C85E6345746F5CD43B638F685431BDEE</GUID>
+      <GUID>F3A31332D5CDFACB1DB8240CD3B9C59D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1188,7 +1188,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>51AD58611C3DD8559AC627AF28D12F5A</GUID>
+      <GUID>E7EC9C289C5AD106F21E9E6635A368F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1268,20 +1268,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TranscriptorBasicObject Control.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\utils\TranscriptorBasicObject Control.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>TranscriptorBasicObject Constant.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -1293,7 +1279,7 @@
         <Path>..\utils\TranscriptorBasicObject Constant.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC62761D44EA95E8654E51E492FD54C6</GUID>
+      <GUID>04FBFD312574172E412A1195B994B26D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1356,7 +1342,7 @@
         <Path>..\Transcriptors\System API\micros.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01079687FD0FC614BE776B033000499B</GUID>
+      <GUID>D226F1173A9770F89FF2D38392FFA9BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1377,7 +1363,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>C45C60BA761F29D07669BF24DA0B4C20</GUID>
+      <GUID>668117B01E1666B6DCEB5A046780C0B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1398,7 +1384,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>B400CB9284CE013EFF44F70027FD8653</GUID>
+      <GUID>700DB577A61490B48D7FDDDFBCC2DDE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1447,7 +1433,7 @@
         <Path>..\Transcriptors\2\Transcriptor LabVIEW for Arduino.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>03ABD1AB9018B154219752A0A6EB0DF8</GUID>
+      <GUID>C229EB9A376DC77FAFB1029ADFFA14B2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1510,7 +1496,7 @@
         <Path>..\Transcriptors\System API\pinMode.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FE73AB1598113DD5D7689CB4033B8CD</GUID>
+      <GUID>C70CD66D2D43558BE2FEB3D2C845AC27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1573,7 +1559,7 @@
         <Path>..\Transcriptors\System API\analogReference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>15C814CBADB387330AAE7BD317310628</GUID>
+      <GUID>120A70CCA7792459752834A3D9C0AAE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1650,7 +1636,7 @@
         <Path>..\Transcriptors\System API\nointerrupts.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66EDD8474C85921E61CC2D07B5C3A07F</GUID>
+      <GUID>E1011B631C44F6D309B4894871877F20</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1769,15 +1755,15 @@
         <Path>..\Transcriptors\System API\Serial read.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>30385CE69CAA933841D299D825D46AA2</GUID>
+      <GUID>508B8CB7B39A425FA4B4760CCF6E8217</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
       <Name>Scripting</Name>
       <View_Format>Icons</View_Format>
       <Size>
-        <Height_Row>12</Height_Row>
-        <Width_Col.>7</Width_Col.>
+        <Height_Row>13</Height_Row>
+        <Width_Col.>6</Width_Col.>
       </Size>
       <_256_Color_Icon>00000CA0002800000C9A00000400000000000020002000080000000000FFFFFF00FF80000000FFFFFFFFFFFF0000FFFFFFFFCCCC0000FFFFFFFF99990000FFFFFFFF66660000FFFFFFFF33330000FFFFFFFF00000000FFFFCCCCFFFF0000FFFFCCCCCCCC0000FFFFCCCC99990000FFFFCCCC66660000FFFFCCCC33330000FFFFCCCC00000000FFFF9999FFFF0000FFFF9999CCCC0000FFFF999999990000FFFF999966660000FFFF999933330000FFFF999900000000FFFF6666FFFF0000FFFF6666CCCC0000FFFF666699990000FFFF666666660000FFFF666633330000FFFF666600000000FFFF3333FFFF0000FFFF3333CCCC0000FFFF333399990000FFFF333366660000FFFF333333330000FFFF333300000000FFFF0000FFFF0000FFFF0000CCCC0000FFFF000099990000FFFF000066660000FFFF000033330000FFFF000000000000CCCCFFFFFFFF0000CCCCFFFFCCCC0000CCCCFFFF99990000CCCCFFFF66660000CCCCFFFF33330000CCCCFFFF00000000CCCCCCCCFFFF0000CCCCCCCCCCCC0000CCCCCCCC99990000CCCCCCCC66660000CCCCCCCC33330000CCCCCCCC00000000CCCC9999FFFF0000CCCC9999CCCC0000CCCC999999990000CCCC999966660000CCCC999933330000CCCC999900000000CCCC6666FFFF0000CCCC6666CCCC0000CCCC666699990000CCCC666666660000CCCC666633330000CCCC666600000000CCCC3333FFFF0000CCCC3333CCCC0000CCCC333399990000CCCC333366660000CCCC333333330000CCCC333300000000CCCC0000FFFF0000CCCC0000CCCC0000CCCC000099990000CCCC000066660000CCCC000033330000CCCC0000000000009999FFFFFFFF00009999FFFFCCCC00009999FFFF999900009999FFFF666600009999FFFF333300009999FFFF000000009999CCCCFFFF00009999CCCCCCCC00009999CCCC999900009999CCCC666600009999CCCC333300009999CCCC0000000099999999FFFF000099999999CCCC0000999999999999000099999999666600009999999933330000999999990000000099996666FFFF000099996666CCCC0000999966669999000099996666666600009999666633330000999966660000000099993333FFFF000099993333CCCC0000999933339999000099993333666600009999333333330000999933330000000099990000FFFF000099990000CCCC000099990000999900009999000066660000999900003333000099990000000000006666FFFFFFFF00006666FFFFCCCC00006666FFFF999900006666FFFF666600006666FFFF333300006666FFFF000000006666CCCCFFFF00006666CCCCCCCC00006666CCCC999900006666CCCC666600006666CCCC333300006666CCCC0000000066669999FFFF000066669999CCCC0000666699999999000066669999666600006666999933330000666699990000000066666666FFFF000066666666CCCC0000666666669999000066666666666600006666666633330000666666660000000066663333FFFF000066663333CCCC0000666633339999000066663333666600006666333333330000666633330000000066660000FFFF000066660000CCCC000066660000999900006666000066660000666600003333000066660000000000003333FFFFFFFF00003333FFFFCCCC00003333FFFF999900003333FFFF666600003333FFFF333300003333FFFF000000003333CCCCFFFF00003333CCCCCCCC00003333CCCC999900003333CCCC666600003333CCCC333300003333CCCC0000000033339999FFFF000033339999CCCC0000333399999999000033339999666600003333999933330000333399990000000033336666FFFF000033336666CCCC0000333366669999000033336666666600003333666633330000333366660000000033333333FFFF000033333333CCCC0000333333339999000033333333666600003333333333330000333333330000000033330000FFFF000033330000CCCC000033330000999900003333000066660000333300003333000033330000000000000000FFFFFFFF00000000FFFFCCCC00000000FFFF999900000000FFFF666600000000FFFF333300000000FFFF000000000000CCCCFFFF00000000CCCCCCCC00000000CCCC999900000000CCCC666600000000CCCC333300000000CCCC0000000000009999FFFF000000009999CCCC0000000099999999000000009999666600000000999933330000000099990000000000006666FFFF000000006666CCCC0000000066669999000000006666666600000000666633330000000066660000000000003333FFFF000000003333CCCC0000000033339999000000003333666600000000333333330000000033330000000000000000FFFF000000000000CCCC0000000000009999000000000000666600000000000033330000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000EEEEEEEEEEEE0000DDDDDDDDDDDD0000BBBBBBBBBBBB0000AAAAAAAAAAAA0000888888888888000077777777777700005555555555550000444444444444000022222222222200001111111111110000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF484848484848484848484848484848484848484848484848484848484848FFFF484848484848484848484848484848484848484848484848484848484848FFFF4848FFFFFF4848FFFF4848FFFFFF4848FF48FFFFFF4848FFFFFF48484848FFFF48FF48484848FF4848FF48FF4848FF48FF48FF4848FF4848FF4848484848FFFF4848FFFF4848FF48484848FFFFFF4848FF48FFFFFF484848FF4848484848FFFF48484848FF48FF4848FF48FF4848FF48FF48FF4848484848FF4848484848FFFF48FFFFFF484848FFFF4848FF4848FF48FF48FF4848484848FF4848FF4848FFFF484848484848484848484848484848484848484848484848484848484848FFFF484848484848484848484848484848484848484848484848484848484848FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF0000000000000000000000FC00FC00FC00FC00FC00000000000000000000FFFF000000000000000000563BFC3BFC3BFC3BFC3BFC3B560000000000000000FFFF0000000000000000003B00FC00FC00FC00FC00FC0089F800000000000000FFFF0000000000000000003B000000000000000000000089F800000000000000FFFF0000000000000000003B000000000000000000000089F800000000000000FFFF0000000000000000003B00B3B3B3B300B3B3B3B30089F800000000000000FFFF0000000000000000003B000000000000000000000089F800000000000000FFFF0000000000000000003B00B300B3B3B300B3B3000089F800000000000000FFFF0000000000000000003B000000000000000000000089F800000000000000FFFF0000000000000000003B00B3B3B300B3B300B3B30089F800000000000000FFFF0000000000000000003B000000000000000000000089F800000000000000FFFF0000000000000000003B00B3B300B3B3B30000000089F800000000000000FFFF0000000000000000003B000000000000000089898989F800000000000000FFFF0000000000000000003B00B3B3B300B300008900003BF800000000000000FFFF0000000000000000003B00000000000000008900F83BF800000000000000FFFF000000000000000000568989898989898989893B3B3BF800000000000000FFFF0000000000000000000000F8F8F8F8F8F8F8F8F8F8F8F800000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -1797,8 +1783,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>1</Column>
+          <Row>2</Row>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\utils\CaseStructure Create Case Calls.vi</Path>
@@ -1811,8 +1797,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>2</Column>
+          <Row>2</Row>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\utils\CaseStructure Format FrameNames Into C code Strings.vi</Path>
@@ -1825,8 +1811,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>3</Column>
+          <Row>2</Row>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\utils\CaseStructure Get FrameNames.vi</Path>
@@ -1839,8 +1825,8 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>4</Column>
+          <Row>2</Row>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>..\utils\CaseStructure Get Frames Output Assignements.vi</Path>
@@ -1853,25 +1839,11 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\utils\CaseStructure Get Selector C Call.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>CaseStructure Get Wire Frame Index.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
+          <Row>2</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\utils\CaseStructure Get Wire Frame Index.vi</Path>
+        <Path>..\utils\CaseStructure Get Selector C Call.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -1881,7 +1853,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1895,7 +1867,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1909,7 +1881,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1923,7 +1895,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1937,7 +1909,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1951,7 +1923,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>2</Row>
+          <Row>3</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1965,7 +1937,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1979,7 +1951,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -1993,7 +1965,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2007,7 +1979,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2021,7 +1993,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2035,7 +2007,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>3</Row>
+          <Row>4</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2049,7 +2021,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2063,7 +2035,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2077,7 +2049,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2091,7 +2063,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2105,7 +2077,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2119,7 +2091,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>4</Row>
+          <Row>5</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2133,7 +2105,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2147,7 +2119,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2161,7 +2133,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2175,7 +2147,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2189,7 +2161,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2203,7 +2175,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>5</Row>
+          <Row>6</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2217,7 +2189,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2231,7 +2203,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2245,7 +2217,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2259,7 +2231,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2273,7 +2245,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2287,7 +2259,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>6</Row>
+          <Row>7</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2301,7 +2273,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2315,7 +2287,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2329,7 +2301,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2343,7 +2315,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2357,7 +2329,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2371,7 +2343,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>7</Row>
+          <Row>8</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2385,7 +2357,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2399,7 +2371,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2413,7 +2385,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2427,7 +2399,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2441,7 +2413,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2455,7 +2427,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>8</Row>
+          <Row>9</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2469,7 +2441,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2483,7 +2455,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2497,7 +2469,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2511,7 +2483,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2525,7 +2497,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2539,7 +2511,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>9</Row>
+          <Row>10</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2553,7 +2525,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2567,7 +2539,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2581,7 +2553,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2595,7 +2567,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2609,7 +2581,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2623,7 +2595,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>10</Row>
+          <Row>11</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2637,7 +2609,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2651,7 +2623,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2665,7 +2637,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2679,7 +2651,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2693,7 +2665,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2707,7 +2679,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>11</Row>
+          <Row>12</Row>
           <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2721,7 +2693,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>12</Row>
+          <Row>13</Row>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2735,7 +2707,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>12</Row>
+          <Row>13</Row>
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2749,7 +2721,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>12</Row>
+          <Row>13</Row>
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2763,7 +2735,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>12</Row>
+          <Row>13</Row>
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2777,7 +2749,7 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>12</Row>
+          <Row>13</Row>
           <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
@@ -2787,18 +2759,60 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>TranscriptorBasicObject Constant.vi</NameSub_Menu_Name>
+        <NameSub_Menu_Name>CaseStructure Get Wire Frame Index.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>true</is_Merge_VI>
+        <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>7</Column>
+          <Row>13</Row>
+          <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>..\utils\TranscriptorBasicObject Constant.vi</Path>
+        <Path>..\utils\CaseStructure Get Wire Frame Index.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>09A90711A16CA76401BBA1042C8E1FD3</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LabVIEW Datatype Prefix.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\types\LabVIEW Datatype Prefix.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>LabVIEW SubVI autogen Name Prefix.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\types\LabVIEW SubVI autogen Name Prefix.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>String Replace LabVIEW Data Types With C types.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\types\String Replace LabVIEW Data Types With C types.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>1033BD346E6CB4D7F380938BE62B5117</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2847,7 +2861,56 @@
         <Path>..\Transcriptors\2\Examples - Arduino\Transcript Example Arduino Serial 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EA5BD0542FB829E2E9845D9BD6BAE17</GUID>
+      <GUID>530B31501DFECE499294A7E940777F23</GUID>
     </Functions_Palette_Data>
+    <Controls_Palette_Data>
+      <Parent_Palette_Index>-1</Parent_Palette_Index>
+      <Name/>
+      <View_Format>Icons</View_Format>
+      <Size>
+        <Height_Row>1</Height_Row>
+        <Width_Col.>4</Width_Col.>
+      </Size>
+      <_256_Color_Icon>00000CA0002800000C9A00000400000000000020002000080000000000FFFFFF00FF80000000FFFFFFFFFFFF0000FFFFFFFFCCCC0000FFFFFFFF99990000FFFFFFFF66660000FFFFFFFF33330000FFFFFFFF00000000FFFFCCCCFFFF0000FFFFCCCCCCCC0000FFFFCCCC99990000FFFFCCCC66660000FFFFCCCC33330000FFFFCCCC00000000FFFF9999FFFF0000FFFF9999CCCC0000FFFF999999990000FFFF999966660000FFFF999933330000FFFF999900000000FFFF6666FFFF0000FFFF6666CCCC0000FFFF666699990000FFFF666666660000FFFF666633330000FFFF666600000000FFFF3333FFFF0000FFFF3333CCCC0000FFFF333399990000FFFF333366660000FFFF333333330000FFFF333300000000FFFF0000FFFF0000FFFF0000CCCC0000FFFF000099990000FFFF000066660000FFFF000033330000FFFF000000000000CCCCFFFFFFFF0000CCCCFFFFCCCC0000CCCCFFFF99990000CCCCFFFF66660000CCCCFFFF33330000CCCCFFFF00000000CCCCCCCCFFFF0000CCCCCCCCCCCC0000CCCCCCCC99990000CCCCCCCC66660000CCCCCCCC33330000CCCCCCCC00000000CCCC9999FFFF0000CCCC9999CCCC0000CCCC999999990000CCCC999966660000CCCC999933330000CCCC999900000000CCCC6666FFFF0000CCCC6666CCCC0000CCCC666699990000CCCC666666660000CCCC666633330000CCCC666600000000CCCC3333FFFF0000CCCC3333CCCC0000CCCC333399990000CCCC333366660000CCCC333333330000CCCC333300000000CCCC0000FFFF0000CCCC0000CCCC0000CCCC000099990000CCCC000066660000CCCC000033330000CCCC0000000000009999FFFFFFFF00009999FFFFCCCC00009999FFFF999900009999FFFF666600009999FFFF333300009999FFFF000000009999CCCCFFFF00009999CCCCCCCC00009999CCCC999900009999CCCC666600009999CCCC333300009999CCCC0000000099999999FFFF000099999999CCCC0000999999999999000099999999666600009999999933330000999999990000000099996666FFFF000099996666CCCC0000999966669999000099996666666600009999666633330000999966660000000099993333FFFF000099993333CCCC0000999933339999000099993333666600009999333333330000999933330000000099990000FFFF000099990000CCCC000099990000999900009999000066660000999900003333000099990000000000006666FFFFFFFF00006666FFFFCCCC00006666FFFF999900006666FFFF666600006666FFFF333300006666FFFF000000006666CCCCFFFF00006666CCCCCCCC00006666CCCC999900006666CCCC666600006666CCCC333300006666CCCC0000000066669999FFFF000066669999CCCC0000666699999999000066669999666600006666999933330000666699990000000066666666FFFF000066666666CCCC0000666666669999000066666666666600006666666633330000666666660000000066663333FFFF000066663333CCCC0000666633339999000066663333666600006666333333330000666633330000000066660000FFFF000066660000CCCC000066660000999900006666000066660000666600003333000066660000000000003333FFFFFFFF00003333FFFFCCCC00003333FFFF999900003333FFFF666600003333FFFF333300003333FFFF000000003333CCCCFFFF00003333CCCCCCCC00003333CCCC999900003333CCCC666600003333CCCC333300003333CCCC0000000033339999FFFF000033339999CCCC0000333399999999000033339999666600003333999933330000333399990000000033336666FFFF000033336666CCCC0000333366669999000033336666666600003333666633330000333366660000000033333333FFFF000033333333CCCC0000333333339999000033333333666600003333333333330000333333330000000033330000FFFF000033330000CCCC000033330000999900003333000066660000333300003333000033330000000000000000FFFFFFFF00000000FFFFCCCC00000000FFFF999900000000FFFF666600000000FFFF333300000000FFFF000000000000CCCCFFFF00000000CCCCCCCC00000000CCCC999900000000CCCC666600000000CCCC333300000000CCCC0000000000009999FFFF000000009999CCCC0000000099999999000000009999666600000000999933330000000099990000000000006666FFFF000000006666CCCC0000000066669999000000006666666600000000666633330000000066660000000000003333FFFF000000003333CCCC0000000033339999000000003333666600000000333333330000000033330000000000000000FFFF000000000000CCCC0000000000009999000000000000666600000000000033330000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000000000000000EEEE000000000000DDDD000000000000BBBB000000000000AAAA0000000000008888000000000000777700000000000055550000000000004444000000000000222200000000000011110000EEEEEEEEEEEE0000DDDDDDDDDDDD0000BBBBBBBBBBBB0000AAAAAAAAAAAA0000888888888888000077777777777700005555555555550000444444444444000022222222222200001111111111110000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4848FFFFFF4848FFFFFF4848FF4848FF48FF48FF4848FF4848FFFF48FFFFFFFF4848FF4848FF48FF4848FF48FF4848FF48FF48FFFF48FF48FF4848FFFFFF4848FF48FFFFFF4848FF4848FF48FF4848FF48FF48FF48FFFF48FF4848FFFFFFFFFFFF48FF4848FF48FF4848FF48FF4848FF48FF48FF4848FF48FF4848FFFFFF4848FF48FF4848FF48FFFFFF484848FFFF4848FF48FF4848FF4848FFFF48FFFF48484848484848FFFF4848FFFFFF48FFFFFF4848FF484848484848484848FFFF484848484848FF4848FF4848FF4848FF4848FF48FF484848484848484848FFFF484848484848FF4848484848FF4848FFFFFF4848FF484848484848484848FFFF484848484848FF4848FF4848FF4848FF4848FF48FF484848484848484848FFFF48484848484848FFFF484848FF4848FF4848FF48FFFFFF48484848484848FFFF484848484848484848484848484848484848484848484848484848484848FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000000000000000000000000000000000000000000000FFFF0000000000000000002B0000000000000000000000000000000000000000FFFF00000000000000002BAC8100000000000000000000000000000000000000FFFF000000000000002B81818181000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFF0000000081815600FFFEFE00000000000000000000000000000000000000FFFF0000000000000000FEFCFF00000000000000000000FFFFFF000000000000FFFF0000000000000000FEFCFF0000000000000000FFFFC5C5C5FFFF00000000FFFF0000000000000000FEACFE00F881000000FFFFC5C5C5C5C5C5C5FFFF0000FFFF0000000000000000FEACAC5675A6000059FAFAFFFFC5C5C5FFFFFAFA5900FFFF000000008181562B8150264A75AC2B00590059FAFAFFFFFFFAFA59005900FFFF00000000000056FC994A757475AC2B000000590059FAFAFA590059000000FFFF000000000000002BFEACA67576AC2B000000000059005900590000000000FFFF000000000000002BFFFEFEFCCAAC2B000000000000005900000000000000FFFF0000000000000000ACACFE2B56FC2B000000000000000000000000000000FFFF0000000081815600D0ACFF00002B2B000000000000000000000000000000FFFF0000000000000000FFFFFF00000000000000000000000000000000000000FFFF000000000000000000000000000000000000000000000000000000000000FFFFFFFFFFFFFFFFFFFAFAFAFAACFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</_256_Color_Icon>
+      <BW_Color_Icon>00000000</BW_Color_Icon>
+      <Help_Info>
+        <Help_Tag/>
+        <Help_File_Path/>
+      </Help_Info>
+      <Description/>
+      <Synchronization_Info>
+        <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
+        <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
+      </Synchronization_Info>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>TranscriptorBasicObject Indicator.ctl</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\utils\TranscriptorBasicObject Indicator.ctl</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>TranscriptorBasicObject Control.ctl</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\utils\TranscriptorBasicObject Control.ctl</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>833A44C3BC67A444C4794CBC0109CACD</GUID>
+    </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
