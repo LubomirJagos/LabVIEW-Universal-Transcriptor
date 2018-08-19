@@ -1,8 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{A3947B3A-AD1F-4DF6-9FC1-1CF6D080D555}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial Status</Property>
-	<Property Name="varPersistentID:{EB9C96C8-A1E2-46AA-8588-DFF5FDA40137}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial String Buffer</Property>
+	<Property Name="varPersistentID:{E6AB561D-EB00-4C53-8717-088058A488E0}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial Status</Property>
+	<Property Name="varPersistentID:{F69870DB-551C-4C9F-ADCF-F7DB53EC0BCF}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial String Buffer</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
