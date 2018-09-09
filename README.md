@@ -22,7 +22,9 @@ There is performance issue, transcripted code cannot be faster than hand written
 --------------------------------------------------------------------------------
 True and false at same time. Always depends on programme application. I wanted to show you that’s it’s possible to transcript LabVIEW diagram into C++ (but that we all know, because NI is doing this for years), but mostly to create xample application.
 Generated code has one advatage and that’s it has same structure over whole application which means it’s really easy to do some analysis and optimalization afterwards. So at first stage I concerd mostly for functionality ignore performance question, these should be handled by some code optiamlizators after transcriptor proces.
-2 Implemented functionality
+
+Implemented functionality
+=========================
 Let’s starts with something positive :) To gain your attention I would like to introduce thorought this whole document conecpt and implementation of my transcriptor for LabVIEW VI into target platform code, for beginning chosen C++ because of Arduino.
 Really, I’m not lying, this is it and it’s here to show you how to done this. So quick review what implement this transcriptor, in other words what could be seamlessly transcripted into C++ code:
 
