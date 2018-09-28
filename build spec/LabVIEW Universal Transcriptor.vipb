@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-03-25 18:11:34" Modified_Date="2018-09-23 19:01:33" Creator="lubo" Comments="" ID="89a060ad76894dd899a2a9f5319a364b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-03-25 18:11:34" Modified_Date="2018-09-28 12:09:25" Creator="lubo" Comments="" ID="1e7b7d51c6db4b812ffdb0b73e312d88">
   <Library_General_Settings>
     <Package_File_Name>LubomirJagos_lib_LabVIEW_Universal_Transcriptor</Package_File_Name>
-    <Library_Version>0.1.0.45</Library_Version>
+    <Library_Version>0.1.0.46</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -424,7 +424,7 @@
         <Path>..\utils</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>27D72426CE0CBAD7AA0C505F50174E70</GUID>
+      <GUID>CBE7AEB440481CAB851B30054762D146</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -515,7 +515,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1AEB2224E164577608BFF32DD830C8E</GUID>
+      <GUID>3A66E81A9730D84E1ECCAF4498C6A904</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -634,7 +634,7 @@
         <Path>..\Transcriptors\System API\ArrayPointerFunction\Array Get Pointer.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4C271A12667161AAE6C881F573A19E0</GUID>
+      <GUID>F08DE3DF29E04C61D2FFDEDF0E3530DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -809,7 +809,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>52CFB54DAFA0CCDBDC479E2F28C20EB8</GUID>
+      <GUID>0B11FB21982BDA3262A9069C6601D6D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -942,7 +942,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3402BAB1D593634E807F35EB34A6ECE</GUID>
+      <GUID>16DEF06FD5EF6E26FA439A027374FEF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1047,7 +1047,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>373F7AA1911F0ED03467D150D31091A8</GUID>
+      <GUID>88BA34133EBC377E3FB2C32557E7CEF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1222,7 +1222,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D33455EFFE056AD62FE0194F7DC5BCD</GUID>
+      <GUID>EB930E8B209AA86F32DD19039954729B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1383,7 +1383,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E3C20FDADC4765DA825ACC264AB28C4</GUID>
+      <GUID>6D14E7C0E5007262E36DE2D2236F4EC0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1446,7 +1446,7 @@
         <Path>..\Transcriptors\System API\micros.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E3C827EBCF108916AE2AD746DC0B6FAE</GUID>
+      <GUID>5878B806A46640AC07C3CEE7C13FCBFD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1509,7 +1509,7 @@
         <Path>..\Transcriptors\2\Transcriptor LabVIEW to C code Arduino GUI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5592DB34141320076EB5C70C8AF0A881</GUID>
+      <GUID>BB2A3C80811F9E78C54DE0A45846A503</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1586,7 +1586,7 @@
         <Path>..\Transcriptors\System API\pinModeExtended.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A2CECEEEE97D1418D0650309D3CBA18</GUID>
+      <GUID>B3B289BD2296AB5687493AC3DD6670D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1649,7 +1649,7 @@
         <Path>..\Transcriptors\System API\analogReference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE8C25B83F84FA49A8963498BBA39D4C</GUID>
+      <GUID>990EC9F716AA5EA3CE2348817E447895</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1726,7 +1726,7 @@
         <Path>..\Transcriptors\System API\nointerrupts.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>351A2E6B70FB29325DC79CFDA72C7735</GUID>
+      <GUID>862B03A1380FD0A5C2FEBDB97B19E075</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1873,7 +1873,7 @@
         <Path>..\Debug</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D6E6511E420CB96A5212BA27C08F2B3</GUID>
+      <GUID>C9CA50A0CB5ABA9C93163A9249FED342</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2930,7 +2930,7 @@
         <Path>..\types\String Replace LabVIEW Data Types With C types.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>997AEDC05FF2E235AFC8CBD7C12BE4FE</GUID>
+      <GUID>A753255593B321416BA89015BCE989C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -2979,7 +2979,7 @@
         <Path>..\Transcriptors\2\Examples - Arduino\Transcript Example Arduino Serial 1.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F9701134FE450CA4D8DA94D3B7DEC8E</GUID>
+      <GUID>0A6B0700E08507EE475705272DE696F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -3112,7 +3112,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8B4FC331EC33A556C527553C7E6BD8B</GUID>
+      <GUID>531189EA817EC40597AA6DFE7593CF5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>13</Parent_Palette_Index>
@@ -3161,7 +3161,7 @@
         <Path>..\Transcriptors\System API\System Serial Library Variables\Serial Simulated Status.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A397EFFC0DF333EA5E0E2FD8074FEAFD</GUID>
+      <GUID>223C802A391EF6EA3811A08EE8532E77</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -3350,7 +3350,7 @@
         <Path>..\Transcriptors\System API\Basic Datatypes Pointers\WordPointer.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C90AA2DBCA73A87F431E439886762D85</GUID>
+      <GUID>3F94684C0017CD9122249CB0BE1CF0F5</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -3399,7 +3399,7 @@
         <Path>..\utils\TranscriptorBasicObject Control.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CE63A58DA7FF6AD5183E5BB21ACFBD9</GUID>
+      <GUID>91D30A3D60DB75AE146DD46DA2542C55</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
