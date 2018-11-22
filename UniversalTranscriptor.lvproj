@@ -33,6 +33,9 @@
 		<Item Name="C code" Type="Folder" URL="../C code">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Debuggers" Type="Folder" URL="../Debuggers">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
