@@ -1,17 +1,30 @@
-#include <stl_vector.h>
+#include <msp430.h>				
+#include <vector>
+
 using namespace std;
 
-void Example_Arduino_Blink_LED(){
+/**
+ * THIS FILE MUST HAVE EXTENSION .CPP TO BE COMPILED AS C++ NOT C!
+ * blink.cpp
+ */
+
+vector<bool> feedbackNode_615;
+bool feedbackNodeInitBool_615 = true;
+
+int someExampleFunction(int a){
+    return a+ 42;
+}
+
+void main(void){
+    WDTCTL = WDTPW | WDTHOLD;       // stop watchdog timer
+    P1DIR |= 0x01;                  // configure P1.0 as output
+
     bool wireUID_424_ = true;
     bool wireUID_740_ = true;
-    long wireUID_705_ = 3;
-    long wireUID_652_ = 2;
-    pinMode(wireUID_652_,wireUID_740_?OUTPUT:INPUT);
-    pinMode(wireUID_705_,wireUID_740_?OUTPUT:INPUT);
     /***** BEGIN WhileLoop ********/
     vector<bool> feedbackNode_615;
     bool feedbackNodeInitBool_615 = true;
-    
+
     bool wireUID_430_ = false; //LoopEndRef.
     int iteratorUID_289 = 0; //loop iterator
     do{
@@ -26,23 +39,19 @@ void Example_Arduino_Blink_LED(){
             feedbackNodeInitBool_615 = false;
         }
         wireUID_642_ = feedbackNode_615.front(); feedbackNode_615.erase(feedbackNode_615.begin());
-        delay(wireUID_426_);
         wireUID_317_ = !wireUID_642_;
-        digitalWrite(wireUID_921_,wireUID_642_?HIGH:LOW);
-        /* Don't know how to translate class "Generic ->GObject ->Node": "" */
-        digitalWrite(wireUID_1157_,wireUID_317_?HIGH:LOW);
+
+        for(int i = 0; i < 3e3; i++);  //barbaristic delay :D
+        P1OUT ^= 0x01;              // toggle P1.0
+
+
+        int a = someExampleFunction(15);
         feedbackNode_615.push_back(wireUID_317_);
          //C code
-        
+
          //output assgn.
         iteratorUID_289++; //iterator increment
     }while(!wireUID_430_); //negation because in LabVIEW it is when stop (oposite)
     /****** END WhileLoop */
-    
-}
 
-void setup(){}
-void loop(){
-    Example_Arduino_Blink_LED();
 }
-

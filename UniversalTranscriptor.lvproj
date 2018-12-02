@@ -59,6 +59,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Arduino Math.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Math Library/Arduino Math.lvlib"/>
 				<Item Name="Arduino Rotary Encoder.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW Universal Transcriptor Rotary Encoder Library/Arduino Rotary Encoder.lvlib"/>
 				<Item Name="Arduino SoftwareSerial Wrapper.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino SoftwareSerial Library/Arduino SoftwareSerial Wrapper.lvlib"/>
@@ -92,6 +93,7 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>

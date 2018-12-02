@@ -1,5 +1,7 @@
 // Import the TestServer code
-load(java.lang.System.getenv("SCRPITING_ROOT") + "/examples/TestServer/TestServer.js");
+//load(java.lang.System.getenv("SCRPITING_ROOT") + "/examples/TestServer/TestServer.js");
+
+load("MSP430DebugServer.js");
 
 /* Details of the board configuration.  */
 board_configuration = {

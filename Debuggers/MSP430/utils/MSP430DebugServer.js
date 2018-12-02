@@ -68,7 +68,8 @@ function TestServer(board_configuration, base_port) {
         "writeData":            writeDataCommandHandler,
         "readDataArray":        readDataArrayCommandHandler,
         "writeDataArray":       writeDataArrayCommandHandler,                
-        "setBreakpointAtLine":        setBreakpointAtLineCommandHandler,
+        "setBreakpointAtLine":  setBreakpointAtLineCommandHandler,
+	"shutdownDebugServer":	shutdownDebugServerCommandHandler,
     };
 
     this.file;
@@ -266,7 +267,8 @@ function loadCommandHandler(session, command) {
     /* Load a program on the session. */
     if (session.target.isConnected()) {
         try {        
-            session.memory.loadProgram(command.program);
+            session.memory.loadProgram(command.program);            
+            session.symbol.add(command.program);  //LuboJ. read symbols
         } catch (err) {
             return { "status": "FAIL", "message": "" + "" + err};                  
         }
@@ -521,13 +523,13 @@ function writeDataArrayCommandHandler(session, command) {
     return { "status": "OK" };
 }
 
-//added by LuboJ.
+//added by LuboJ., example: {"name":"setBreakpointAtLine","file":"Blink.ino","file2":"Blink.out","line":50}
 function setBreakpointAtLineCommandHandler(session, command) {
     /* Set breakpoint at line */
     if (session.target.isConnected()) { 
         try {           
-	    session.symbol.add(command.file);
-            var bpID = session.breakpoint.add(command.file, command.address); 
+            session.symbol.add(command.file2);  //THIS MUST BE .OUT FILE
+            var bpID = session.breakpoint.add(command.file, command.line); //HERE MUST BE .INO FILE
         } catch (err) {
             return { "status": "FAIL", "message": "" + err};                
         }           
@@ -540,4 +542,11 @@ function setBreakpointAtLineCommandHandler(session, command) {
         return { "status": "FAIL", "message": "Target is not connected", };
     }
 }
+
+//added by LuboJ., simply shutdown test server
+//NON-FUNCTIONAL FOR NOW, don't know why, that's engineering
+function shutdownDebugServerCommandHandler(session, command) {
+	this.shutdown();
+}
+
 
