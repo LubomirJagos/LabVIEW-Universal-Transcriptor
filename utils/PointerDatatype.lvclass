@@ -19,7 +19,7 @@
 
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"_!!!!!2^5=G&amp;O=W.S;8"U&lt;X*#98.J9U^C;G6D&gt;#ZM&gt;G.M98.T5&amp;2)-!!!!&amp;)!!!!%"TRW;7RJ9DY?4'&amp;C6EF&amp;6S"6&lt;GFW:8*T97QA6(*B&lt;H.D=GFQ&gt;'^S"E&amp;%/4AV-"^5=G&amp;O=W.S;8"U&lt;X*#98.J9U^C;G6D&gt;#ZM&gt;G.M98.T!!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"2!!!!!2^5=G&amp;O=W.S;8"U&lt;X*#98.J9U^C;G6D&gt;#ZM&gt;G.M98.T5&amp;2)-!!!!#5!!1!#!"^5=G&amp;O=W.S;8"U&lt;X*#98.J9U^C;G6D&gt;#ZM&gt;G.M98.T!!!!!!</Property>
 	<Item Name="PointerDatatype.ctl" Type="Class Private Data" URL="PointerDatatype.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>

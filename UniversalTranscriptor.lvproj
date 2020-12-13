@@ -3,9 +3,7 @@
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{2435611C-DB89-404D-9C6B-8ADBA2FF94FC}" Type="Ref">/My Computer/Test/Examples For Parsing/Example Global Variables.lvlib/GlobalVarArrayString</Property>
 	<Property Name="varPersistentID:{49F4D23A-F104-4EE1-B6DB-717D4A4150C9}" Type="Ref">/My Computer/Test/Examples For Parsing/Example Global Variables.lvlib/GlobalVariableVariant</Property>
-	<Property Name="varPersistentID:{5F60524D-CCA3-4E75-8526-42D07D36527B}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial String Buffer</Property>
 	<Property Name="varPersistentID:{94F60E20-33F5-4FC9-9BE3-2D18A729ED18}" Type="Ref">/My Computer/Test/Examples For Parsing/Example Global Variables.lvlib/GlobalDoubleVariable</Property>
-	<Property Name="varPersistentID:{CF1BE8FC-2C49-4D96-A3AD-D1D81F5A2DEE}" Type="Ref">/My Computer/Transcriptors/System API/System Serial Library Variables/System Serial Library Variables.lvlib/Serial Status</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -71,7 +69,6 @@
 				<Item Name="Complex Numbers Static.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW for Arduino Complex Numbers Static/Complex Numbers Static.lvlib"/>
 				<Item Name="Complex Numbers.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/Arduino for LabVIEW Complex numbers/Complex Numbers.lvlib"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="create.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW Universal Transcriptor Rotary Encoder Library/Encoder Class/create.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -142,7 +139,6 @@
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="write.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Universal Transcriptor/LabVIEW Universal Transcriptor Rotary Encoder Library/Encoder Class/write.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
